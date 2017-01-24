@@ -1,0 +1,17 @@
+from random import randint
+
+def display_die(num):
+    if num == 1:
+        print('   \n * \n   ')
+    elif num == 2:
+        print('*  \n   \n  *')
+    elif num == 3:
+        print('*  \n * \n  *')
+    elif num == 4:
+        print('* *\n   \n* *')
+    elif num == 5:
+        print('* *\n * \n* *')
+    elif num == 6:
+        print('* *\n* *\n* *')
+    else:
+        print('Bad die!')

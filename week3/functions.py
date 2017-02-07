@@ -19,3 +19,9 @@ if __name__ == '__main__':
     print(y(3))
 
     #print(pow(y, 3))
+
+    import urllib.request
+
+    web_page = urllib.request.urlopen('https://www.google.ca').read()
+
+    print(web_page)

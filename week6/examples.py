@@ -1,12 +1,9 @@
+import math
+
+# Ex. 1, defining a list
 items = ['apple', 'pear', 'orange', 'grape', 4, 3, 4.32, math.sin]
-items.sort()
 
-items[1] = 'grapefruit'
-items[3] = items[2:4]
-items.append(454)
-
-
-
+# Ex. 2, count the number of sentences in a paragraph
 paragraph = """
 The University of Toronto (U of T, UToronto, or Toronto) is a public research university in Toronto, Ontario, Canada on
 the grounds that surround Queen's Park. It was founded by royal charter in 1827 as King's College, the first institution
@@ -28,10 +25,4 @@ Supreme Court, and has been affiliated with ten Nobel laureates.
 """
 
 sentences = paragraph.split('. ')
-print(sentences[3])
-
-for i in range(0, 100):
-    print(i + 1)
-
-groceries = [['apples', 4], ['pears', 3], ['banannas', 13]]
-
+print(len(sentences))

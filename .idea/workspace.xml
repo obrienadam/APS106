@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0d0a6a8-bd12-483f-83f1-7e1371aaa0a9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week7/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week7/prime_fib.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week7/roots.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week7/while.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week8/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week7/prime_fibonacci.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/week7/prime_fib.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/week7/while.py" afterPath="$PROJECT_DIR$/week7/primes.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week7/roots.py" afterPath="$PROJECT_DIR$/week7/roots.py" />
     </list>
     <ignored path="APS106.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,14 +25,14 @@
     <SUITE FILE_PATH="coverage/APS106$cards.coverage" NAME="cards Coverage Results" MODIFIED="1485379297627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week3" />
     <SUITE FILE_PATH="coverage/APS106$camel_case_converter_good.coverage" NAME="camel_case_converter_good Coverage Results" MODIFIED="1486136717429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week5" />
     <SUITE FILE_PATH="coverage/APS106$grades.coverage" NAME="grades Coverage Results" MODIFIED="1486134952690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4" />
-    <SUITE FILE_PATH="coverage/APS106$prime_fib.coverage" NAME="prime_fib Coverage Results" MODIFIED="1488296600126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week7" />
+    <SUITE FILE_PATH="coverage/APS106$prime_fib.coverage" NAME="prime_fib Coverage Results" MODIFIED="1488386973621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week7" />
     <SUITE FILE_PATH="coverage/APS106$blackjack.coverage" NAME="blackjack Coverage Results" MODIFIED="1484929117438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week3" />
     <SUITE FILE_PATH="coverage/APS106$die.coverage" NAME="die Coverage Results" MODIFIED="1485379649729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week3" />
     <SUITE FILE_PATH="coverage/APS106$lab4.coverage" NAME="lab4 Coverage Results" MODIFIED="1487264578917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week6" />
     <SUITE FILE_PATH="coverage/APS106$password_validator.coverage" NAME="password_validator Coverage Results" MODIFIED="1486136119971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week5" />
     <SUITE FILE_PATH="coverage/APS106$rpg.coverage" NAME="rpg Coverage Results" MODIFIED="1485271520794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week3" />
     <SUITE FILE_PATH="coverage/APS106$stuff.coverage" NAME="stuff Coverage Results" MODIFIED="1487279620343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week6" />
-    <SUITE FILE_PATH="coverage/APS106$roots.coverage" NAME="roots Coverage Results" MODIFIED="1487346351916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week7" />
+    <SUITE FILE_PATH="coverage/APS106$roots.coverage" NAME="roots Coverage Results" MODIFIED="1488388329516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week7" />
     <SUITE FILE_PATH="coverage/APS106$bugs.coverage" NAME="bugs Coverage Results" MODIFIED="1486136535124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week5" />
     <SUITE FILE_PATH="coverage/APS106$flip_digits.coverage" NAME="flip_digits Coverage Results" MODIFIED="1484667040690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week1" />
     <SUITE FILE_PATH="coverage/APS106$groceries.coverage" NAME="groceries Coverage Results" MODIFIED="1487346047703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week6" />
@@ -92,31 +91,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="roots.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="roots.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week7/roots.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="while.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week7/while.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prime_fib.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/week7/prime_fib.py">
+      <file leaf-file-name="prime_fibonacci.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week7/prime_fibonacci.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="375">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="primes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week7/primes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="101" column="74" lean-forward="true" selection-start-line="101" selection-start-column="74" selection-end-line="101" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -137,16 +136,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="password_validator.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week5/password_validator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -193,9 +182,12 @@
         <option value="$PROJECT_DIR$/week6/examples.py" />
         <option value="$PROJECT_DIR$/week6/fibonacci.py" />
         <option value="$PROJECT_DIR$/week6/groceries.py" />
-        <option value="$PROJECT_DIR$/week7/roots.py" />
         <option value="$PROJECT_DIR$/week7/while.py" />
         <option value="$PROJECT_DIR$/week7/prime_fib.py" />
+        <option value="$PROJECT_DIR$/week7/primes.py" />
+        <option value="$PROJECT_DIR$/week7/prime_fibonacci.py" />
+        <option value="$PROJECT_DIR$/week7/examples.py" />
+        <option value="$PROJECT_DIR$/week7/roots.py" />
       </list>
     </option>
   </component>
@@ -338,7 +330,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="Python.prime_fib">
+  <component name="RunManager" selected="Python.roots">
     <configuration default="false" name="stuff" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -424,7 +416,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="APS106" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week7/prime_fib.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week7/prime_fibonacci.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -652,8 +644,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.prime_fib" />
-        <item index="1" class="java.lang.String" itemvalue="Python.roots" />
+        <item index="0" class="java.lang.String" itemvalue="Python.roots" />
+        <item index="1" class="java.lang.String" itemvalue="Python.prime_fib" />
         <item index="2" class="java.lang.String" itemvalue="Python.groceries" />
         <item index="3" class="java.lang.String" itemvalue="Python.fibonacci" />
         <item index="4" class="java.lang.String" itemvalue="Python.stuff" />
@@ -678,9 +670,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1922" height="1019" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25833333" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25833333" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -716,32 +708,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/week7/roots.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/week2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week2/hello_world.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week2/read_ints.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -962,7 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -970,7 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -986,14 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="10" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="49" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week6/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1015,6 +976,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/week6/fibonacci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week6/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/week6/groceries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1023,10 +1000,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week7/roots.py">
+    <entry file="file://$PROJECT_DIR$/week7/prime_fibonacci.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week7/primes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="101" column="74" lean-forward="true" selection-start-line="101" selection-start-column="74" selection-end-line="101" selection-end-column="74" />
           <folding />
         </state>
       </provider>
@@ -1039,18 +1024,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week6/fibonacci.py">
+    <entry file="file://$PROJECT_DIR$/week7/examples.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="16" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week7/prime_fib.py">
+    <entry file="file://$PROJECT_DIR$/week7/roots.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
           <folding />
         </state>
       </provider>

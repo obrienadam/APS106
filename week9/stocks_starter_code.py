@@ -8,20 +8,10 @@ def get_prices(filename):
     (str)-> dict
     Takes in a filename, returns the price dictionary (assuming that file exists).
     """
-    with open(filename, 'r') as f: # Open a file for reading
-        headers = f.readline().strip().split(',') # Read the headers of the .csv (these will be the dictionary keys)
-        prices = {} # Construct an empty prices dictionary
+    prices = {}
 
     # Return the prices dictionary
     return prices
-
-def compute_moving_average(prices, period):
-    """
-    (dict, int)-> list
-    Takes in the price dictionary and a moving average period. Computes the moving average, stores the result in a list,
-    and returns it
-    """
-    closing_prices = prices['Close'] # Get a list of closing prices from the prices dictionary
 
 def get_lowest_low(prices):
     """

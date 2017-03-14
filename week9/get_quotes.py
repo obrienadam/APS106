@@ -45,7 +45,7 @@ def write_to_file(symbol, prices):
     headers = prices.keys()
     data = prices.values()
 
-    with open(symbol.upper() + '.csv', 'w') as f:
+    with open(symbol.upper() + '.csv', 'w', encoding='utf-8') as f:
         f.write(','.join(headers) + '\n')
 
         for vals in zip(*data):

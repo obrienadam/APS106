@@ -14,9 +14,9 @@ def get_prices(filename):
             line = line.strip().split(',')
 
             for i in range(len(line)):
-                try:
+                if headers[i] in 'Open Close Low High':
                     prices[headers[i]].append(float(line[i]))
-                except ValueError:
+                else:
                     prices[headers[i]].append(line[i])
 
     return prices
